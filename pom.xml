@@ -11,6 +11,7 @@
     <modules>
         <module>springcloud-eureka-server</module>
         <module>springcloud-api-member-impl</module>
+        <module>springcloud-api-order-impl</module>
     </modules>
 
     <parent>
@@ -50,6 +51,12 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <!-- SpringBoot web 框架组件 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web-services</artifactId>
         </dependency>
     </dependencies>
 
