@@ -14,7 +14,7 @@ eureka:
   ###客户端调用地址
   client:
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:8000/eureka/
+      defaultZone: http://${eureka.instance.hostname}:8000/eureka/, http://${eureka.instance.hostname}:8001/eureka/, http://${eureka.instance.hostname}:8002/eureka/
     ###是否将自己注册到Eureka服务中
     register-with-eureka: true
     ###是否从Eureka中获取注册信息,检索服务信息
